@@ -27,7 +27,7 @@
     <ns2:type rdf:resource="http://purl.org/adms/assettype/CodeList"/>
     <ns5:representationTechnique rdf:resource="http://purl.org/adms/representationtechnique/SKOS"/>
     <ns2:identifier>https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution</ns2:identifier>
-    <ns2:rightsHolder rdf:resource="http://spcdata.digitpa.gov.it/Amministrazione/istat"/>
+    <ns2:rightsHolder rdf:resource="https://w3id.org/italia/data/public-organization/ISTAT"/>
     <ns2:creator rdf:resource="http://spcdata.digitpa.gov.it/Amministrazione/agid"/>
     <ns2:creator rdf:resource="https://w3id.org/italia/data/resource/Amministrazione/td_PCM"/>
     <ns2:publisher rdf:resource="http://spcdata.digitpa.gov.it/Amministrazione/agid"/>
@@ -51,12 +51,12 @@
     <ns1:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution/1"/>
     <ns1:hasTopConcept rdf:resource="https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution/4"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://spcdata.digitpa.gov.it/Amministrazione/istat">
+  <rdf:Description rdf:about="https://w3id.org/italia/data/public-organization/ISTAT">
     <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Agent"/>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-    <ns2:identifier>istat</ns2:identifier>
-    <ns8:name xml:lang="it">Istituto Nazionale di Statistica</ns8:name>
-    <ns8:name xml:lang="en">Italian National Institute of Statistics</ns8:name>
+    <ns2:identifier>ISTAT</ns2:identifier>
+    <ns8:name xml:lang="it">Istituto Nazionale di Statistica - ISTAT</ns8:name>
+    <ns8:name xml:lang="en">Italian National Institute of Statistics - ISTAT</ns8:name>
   </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/italia/data/resource/Amministrazione/td_PCM">
     <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Agent"/>

@@ -268,7 +268,7 @@
     ],
     "http://purl.org/dc/terms/rightsHolder": [
       {
-        "@id": "http://spcdata.digitpa.gov.it/Amministrazione/istat"
+        "@id": "https://w3id.org/italia/data/public-organization/ISTAT"
       }
     ],
     "http://purl.org/dc/terms/title": [
@@ -672,24 +672,24 @@
     ]
   },
   {
-    "@id": "http://spcdata.digitpa.gov.it/Amministrazione/istat",
+    "@id": "https://w3id.org/italia/data/public-organization/ISTAT",
     "@type": [
       "http://dati.gov.it/onto/dcatapit#Agent",
       "http://xmlns.com/foaf/0.1/Agent"
     ],
     "http://purl.org/dc/terms/identifier": [
       {
-        "@value": "istat"
+        "@value": "ISTAT"
       }
     ],
     "http://xmlns.com/foaf/0.1/name": [
       {
         "@language": "it",
-        "@value": "Istituto Nazionale di Statistica"
+        "@value": "Istituto Nazionale di Statistica - ISTAT"
       },
       {
         "@language": "en",
-        "@value": "Italian National Institute of Statistics"
+        "@value": "Italian National Institute of Statistics - ISTAT"
       }
     ]
   }

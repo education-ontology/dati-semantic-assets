@@ -7,7 +7,7 @@
 	<http://purl.org/dc/terms/type> <http://purl.org/adms/assettype/CodeList> ;
 	<http://www.w3.org/ns/adms#representationTechnique> <http://purl.org/adms/representationtechnique/SKOS> ;
 	<http://purl.org/dc/terms/identifier> "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/geographical-distribution" ;
-	<http://purl.org/dc/terms/rightsHolder> <http://spcdata.digitpa.gov.it/Amministrazione/istat> ;
+	<http://purl.org/dc/terms/rightsHolder> <https://w3id.org/italia/data/public-organization/ISTAT> ;
 	<http://purl.org/dc/terms/creator> <http://spcdata.digitpa.gov.it/Amministrazione/agid> , <https://w3id.org/italia/data/resource/Amministrazione/td_PCM> ;
 	<http://purl.org/dc/terms/publisher> <http://spcdata.digitpa.gov.it/Amministrazione/agid> ;
 	<http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/REGI> ;
@@ -22,9 +22,10 @@
 	<http://purl.org/dc/terms/modified> "2019-04-03"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	<http://www.w3.org/2002/07/owl#versionInfo> "2.0 - aggiornato URI del vocabolario e i suoi contenuti"@it .
 
-<http://spcdata.digitpa.gov.it/Amministrazione/istat> a <http://dati.gov.it/onto/dcatapit#Agent> , <http://xmlns.com/foaf/0.1/Agent> ;
-	<http://purl.org/dc/terms/identifier> "istat" ;
-	<http://xmlns.com/foaf/0.1/name> "Istituto Nazionale di Statistica"@it , "Italian National Institute of Statistics"@en .
+<https://w3id.org/italia/data/public-organization/ISTAT> a <http://dati.gov.it/onto/dcatapit#Agent> , <http://xmlns.com/foaf/0.1/Agent> ;
+	<http://purl.org/dc/terms/identifier> "ISTAT" ;
+	<http://xmlns.com/foaf/0.1/name> "Istituto Nazionale di Statistica - ISTAT"@it , "Italian National Institute of Statistics - ISTAT"@en .
+	
 
 <http://spcdata.digitpa.gov.it/Amministrazione/agid> a <http://dati.gov.it/onto/dcatapit#Agent> , <http://xmlns.com/foaf/0.1/Agent> ;
 	<http://purl.org/dc/terms/identifier> "agid" ;
