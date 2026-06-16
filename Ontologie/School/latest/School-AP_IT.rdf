@@ -31,9 +31,14 @@
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-05-19</terms:issued>
         <terms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
         <terms:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+        <terms:license rdf:resource="https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"/>
         <terms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-05-19</terms:modified>
         <terms:publisher rdf:resource="https://w3id.org/italia/data/public-organization/PCM-1RSIZZ"/>
         <terms:rightsHolder rdf:resource="https://w3id.org/italia/data/public-organization/INDIRE"/>
+        <terms:subject rdf:resource="http://eurovoc.europa.eu/4357"/>
+        <terms:subject rdf:resource="http://eurovoc.europa.eu/668"/>
+        <terms:subject rdf:resource="http://eurovoc.europa.eu/873"/>
+        <terms:temporal rdf:nodeID="genid1"/>
         <terms:title xml:lang="en">School-AP_IT</terms:title>
         <terms:title xml:lang="it">School-AP_IT</terms:title>
         <rdfs:comment xml:lang="it">L&apos;ontologia School-AP_IT modella il sistema scolastico italiano, fornendo un vocabolario formale per descrivere le istituzioni scolastiche, i punti di erogazione del servizio didattico e le rispettive relazioni. L&apos;ontologia distingue tra Istituzioni Scolastiche — enti giuridici e amministrativi autonomi ai sensi del D.P.R. 275/1999 — e Punti di Erogazione del Servizio, ovvero i luoghi fisici (plessi, sedi distaccate, sezioni) in cui si svolge concretamente l&apos;attività didattica. Sono modellati i principali cicli di istruzione previsti dall&apos;ordinamento italiano: il primo ciclo (scuola dell&apos;infanzia, primaria e secondaria di primo grado), il secondo ciclo (licei, istituti tecnici e professionali) e l&apos;istruzione degli adulti (CPIA e sezioni serali e carcerarie). L&apos;ontologia è parte della rete OntoPiA ed è allineata con le ontologie COV (organizzazioni), CLV (luoghi e indirizzi) e RO (ruoli).</rdfs:comment>
@@ -68,6 +73,10 @@
         <ADMS:target>Pubbliche Amministrazioni</ADMS:target>
         <ADMS:type rdf:resource="https://w3id.org/italia/onto/ADMS/DomainOntology"/>
     </owl:Ontology>
+    <rdf:Description rdf:nodeID="genid1">
+        <rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+        <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-16</dcat:startDate>
+    </rdf:Description>
     
 
 
@@ -87,6 +96,27 @@
 
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/subject -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/subject"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/temporal -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/temporal"/>
+    
+
+
+    <!-- http://www.w3.org/ns/dcat#startDate -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/dcat#startDate"/>
     
 
 
@@ -194,6 +224,13 @@
      -->
 
 
+    
+
+
+    <!-- http://purl.org/dc/terms/PeriodOfTime -->
+
+
+    <owl:Class rdf:about="http://purl.org/dc/terms/PeriodOfTime"/>
     
 
 

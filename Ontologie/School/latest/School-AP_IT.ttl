@@ -22,9 +22,14 @@
                                        <http://purl.org/dc/terms/issued> "2025-05-19"^^xsd:date ;
                                        <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/ENG> ,
                                                                            <http://publications.europa.eu/resource/authority/language/ITA> ;
+                                       <http://purl.org/dc/terms/license> <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
                                        <http://purl.org/dc/terms/modified> "2025-05-19"^^xsd:date ;
                                        <http://purl.org/dc/terms/publisher> <https://w3id.org/italia/data/public-organization/PCM-1RSIZZ> ;
                                        <http://purl.org/dc/terms/rightsHolder> <https://w3id.org/italia/data/public-organization/INDIRE> ;
+                                       <http://purl.org/dc/terms/subject> <http://eurovoc.europa.eu/4357> ,
+                                                                          <http://eurovoc.europa.eu/668> ,
+                                                                          <http://eurovoc.europa.eu/873> ;
+                                       <http://purl.org/dc/terms/temporal> _:genid1 ;
                                        <http://purl.org/dc/terms/title> "School-AP_IT"@en ,
                                                                         "School-AP_IT"@it ;
                                        rdfs:comment "L'ontologia School-AP_IT modella il sistema scolastico italiano, fornendo un vocabolario formale per descrivere le istituzioni scolastiche, i punti di erogazione del servizio didattico e le rispettive relazioni. L'ontologia distingue tra Istituzioni Scolastiche — enti giuridici e amministrativi autonomi ai sensi del D.P.R. 275/1999 — e Punti di Erogazione del Servizio, ovvero i luoghi fisici (plessi, sedi distaccate, sezioni) in cui si svolge concretamente l'attività didattica. Sono modellati i principali cicli di istruzione previsti dall'ordinamento italiano: il primo ciclo (scuola dell'infanzia, primaria e secondaria di primo grado), il secondo ciclo (licei, istituti tecnici e professionali) e l'istruzione degli adulti (CPIA e sezioni serali e carcerarie). L'ontologia è parte della rete OntoPiA ed è allineata con le ontologie COV (organizzazioni), CLV (luoghi e indirizzi) e RO (ruoli)."@it ,
@@ -59,12 +64,27 @@
                                                                                   "Pubbliche Amministrazioni" ;
                                        <https://w3id.org/italia/onto/ADMS/type> <https://w3id.org/italia/onto/ADMS/DomainOntology> .
 
+_:genid1 rdf:type <http://purl.org/dc/terms/PeriodOfTime> ;
+          <http://www.w3.org/ns/dcat#startDate> "2026-06-16"^^xsd:date .
+
 #################################################################
 #    Annotation properties
 #################################################################
 
 ###  http://purl.org/dc/elements/1.1/description
 <http://purl.org/dc/elements/1.1/description> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/subject
+<http://purl.org/dc/terms/subject> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/temporal
+<http://purl.org/dc/terms/temporal> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/dcat#startDate
+<http://www.w3.org/ns/dcat#startDate> rdf:type owl:AnnotationProperty .
 
 
 ###  https://w3id.org/italia/onto/ADMS/prev
@@ -136,6 +156,10 @@
 #################################################################
 #    Classes
 #################################################################
+
+###  http://purl.org/dc/terms/PeriodOfTime
+<http://purl.org/dc/terms/PeriodOfTime> rdf:type owl:Class .
+
 
 ###  https://w3id.org/italia/onto/COV/PrivateOrganization
 <https://w3id.org/italia/onto/COV/PrivateOrganization> rdf:type owl:Class .

@@ -72,6 +72,11 @@
                 "@id": "http://publications.europa.eu/resource/authority/language/ITA"
             }
         ],
+        "http://purl.org/dc/terms/license": [
+            {
+                "@id": "https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40"
+            }
+        ],
         "http://purl.org/dc/terms/modified": [
             {
                 "@value": "2025-05-19",
@@ -86,6 +91,22 @@
         "http://purl.org/dc/terms/rightsHolder": [
             {
                 "@id": "https://w3id.org/italia/data/public-organization/INDIRE"
+            }
+        ],
+        "http://purl.org/dc/terms/subject": [
+            {
+                "@id": "http://eurovoc.europa.eu/4357"
+            },
+            {
+                "@id": "http://eurovoc.europa.eu/668"
+            },
+            {
+                "@id": "http://eurovoc.europa.eu/873"
+            }
+        ],
+        "http://purl.org/dc/terms/temporal": [
+            {
+                "@id": "_:genid1"
             }
         ],
         "http://purl.org/dc/terms/title": [
@@ -313,6 +334,24 @@
         ]
     },
     {
+        "@id": "_:genid1",
+        "http://www.w3.org/ns/dcat#startDate": [
+            {
+                "@value": "2026-06-16",
+                "@type": "http://www.w3.org/2001/XMLSchema#date"
+            }
+        ],
+        "@type": [
+            "http://purl.org/dc/terms/PeriodOfTime"
+        ]
+    },
+    {
+        "@id": "http://purl.org/dc/terms/PeriodOfTime",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ]
+    },
+    {
         "@id": "https://w3id.org/italia/data/contact-point/INDIRE",
         "@type": [
             "http://www.w3.org/2002/07/owl#NamedIndividual",
@@ -341,7 +380,7 @@
                 "@id": "https://w3id.org/italia/onto/COV/Organization"
             },
             {
-                "@id": "_:genid38"
+                "@id": "_:genid39"
             }
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
@@ -558,6 +597,24 @@
         ]
     },
     {
+        "@id": "http://purl.org/dc/terms/subject",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#AnnotationProperty"
+        ]
+    },
+    {
+        "@id": "http://purl.org/dc/terms/temporal",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#AnnotationProperty"
+        ]
+    },
+    {
+        "@id": "http://www.w3.org/ns/dcat#startDate",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#AnnotationProperty"
+        ]
+    },
+    {
         "@id": "https://w3id.org/italia/onto/ADMS/prev",
         "@type": [
             "http://www.w3.org/2002/07/owl#AnnotationProperty"
@@ -637,7 +694,7 @@
                 "@id": "https://w3id.org/italia/onto/School/IstituzioneScolastica"
             },
             {
-                "@id": "_:genid29"
+                "@id": "_:genid30"
             }
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
@@ -750,12 +807,12 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#domain": [
             {
-                "@id": "_:genid1"
+                "@id": "_:genid2"
             }
         ],
         "http://www.w3.org/2000/01/rdf-schema#range": [
             {
-                "@id": "_:genid5"
+                "@id": "_:genid6"
             }
         ],
         "http://purl.org/dc/terms/identifier": [
@@ -808,7 +865,7 @@
         ]
     },
     {
-        "@id": "_:genid1",
+        "@id": "_:genid2",
         "http://www.w3.org/2002/07/owl#unionOf": [
             {
                 "@list": [
@@ -841,7 +898,7 @@
                 "@id": "https://w3id.org/italia/onto/School/PuntoDiErogazioneDelServizio"
             },
             {
-                "@id": "_:genid39"
+                "@id": "_:genid40"
             }
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
@@ -897,7 +954,7 @@
                 "@id": "https://w3id.org/italia/onto/School/PuntoDiErogazioneDelServizio"
             },
             {
-                "@id": "_:genid34"
+                "@id": "_:genid35"
             }
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
@@ -953,7 +1010,7 @@
                 "@id": "https://w3id.org/italia/onto/School/PuntoDiErogazioneDelServizio"
             },
             {
-                "@id": "_:genid30"
+                "@id": "_:genid31"
             }
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
@@ -997,7 +1054,7 @@
         ]
     },
     {
-        "@id": "_:genid5",
+        "@id": "_:genid6",
         "http://www.w3.org/2002/07/owl#unionOf": [
             {
                 "@list": [
@@ -1200,7 +1257,7 @@
                 "@id": "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"
             },
             {
-                "@id": "_:genid49"
+                "@id": "_:genid50"
             }
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
@@ -1265,7 +1322,7 @@
                 "@id": "https://w3id.org/italia/onto/School/IstituzioneScolasticaPerAdulti"
             },
             {
-                "@id": "_:genid8"
+                "@id": "_:genid9"
             }
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
@@ -1409,10 +1466,10 @@
         ]
     },
     {
-        "@id": "_:genid8",
+        "@id": "_:genid9",
         "http://www.w3.org/2002/07/owl#allValuesFrom": [
             {
-                "@id": "_:genid9"
+                "@id": "_:genid10"
             }
         ],
         "http://www.w3.org/2002/07/owl#onProperty": [
@@ -1425,7 +1482,7 @@
         ]
     },
     {
-        "@id": "_:genid9",
+        "@id": "_:genid10",
         "http://www.w3.org/2002/07/owl#unionOf": [
             {
                 "@list": [
@@ -1567,7 +1624,7 @@
                 "@id": "https://w3id.org/italia/onto/School/IstituzioneScolasticaDiPrimoCiclo"
             },
             {
-                "@id": "_:genid12"
+                "@id": "_:genid13"
             }
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
@@ -1611,7 +1668,7 @@
         ]
     },
     {
-        "@id": "_:genid12",
+        "@id": "_:genid13",
         "@type": [
             "http://www.w3.org/2002/07/owl#Class"
         ],
@@ -1619,17 +1676,17 @@
             {
                 "@list": [
                     {
-                        "@id": "_:genid16"
+                        "@id": "_:genid17"
                     },
                     {
-                        "@id": "_:genid14"
+                        "@id": "_:genid15"
                     }
                 ]
             }
         ]
     },
     {
-        "@id": "_:genid14",
+        "@id": "_:genid15",
         "http://www.w3.org/2002/07/owl#someValuesFrom": [
             {
                 "@id": "https://w3id.org/italia/onto/School/ScuolaPrimaria"
@@ -1695,7 +1752,7 @@
         ]
     },
     {
-        "@id": "_:genid16",
+        "@id": "_:genid17",
         "http://www.w3.org/2002/07/owl#someValuesFrom": [
             {
                 "@id": "https://w3id.org/italia/onto/School/ScuolaInfanzia"
@@ -1877,7 +1934,7 @@
                 "@id": "https://w3id.org/italia/onto/School/IstituzioneScolasticaDiPrimoCiclo"
             },
             {
-                "@id": "_:genid17"
+                "@id": "_:genid18"
             }
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
@@ -1921,7 +1978,7 @@
         ]
     },
     {
-        "@id": "_:genid17",
+        "@id": "_:genid18",
         "@type": [
             "http://www.w3.org/2002/07/owl#Class"
         ],
@@ -1929,20 +1986,20 @@
             {
                 "@list": [
                     {
-                        "@id": "_:genid23"
+                        "@id": "_:genid24"
                     },
                     {
-                        "@id": "_:genid21"
+                        "@id": "_:genid22"
                     },
                     {
-                        "@id": "_:genid19"
+                        "@id": "_:genid20"
                     }
                 ]
             }
         ]
     },
     {
-        "@id": "_:genid19",
+        "@id": "_:genid20",
         "http://www.w3.org/2002/07/owl#someValuesFrom": [
             {
                 "@id": "https://w3id.org/italia/onto/School/ScuolaSecondariaDiPrimoGrado"
@@ -2008,7 +2065,7 @@
         ]
     },
     {
-        "@id": "_:genid21",
+        "@id": "_:genid22",
         "http://www.w3.org/2002/07/owl#someValuesFrom": [
             {
                 "@id": "https://w3id.org/italia/onto/School/ScuolaPrimaria"
@@ -2024,7 +2081,7 @@
         ]
     },
     {
-        "@id": "_:genid23",
+        "@id": "_:genid24",
         "http://www.w3.org/2002/07/owl#someValuesFrom": [
             {
                 "@id": "https://w3id.org/italia/onto/School/ScuolaInfanzia"
@@ -2159,7 +2216,7 @@
                 "@id": "https://w3id.org/italia/onto/School/IstituzioneScolasticaDiSecondoCiclo"
             },
             {
-                "@id": "_:genid24"
+                "@id": "_:genid25"
             }
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
@@ -2207,10 +2264,10 @@
         ]
     },
     {
-        "@id": "_:genid24",
+        "@id": "_:genid25",
         "http://www.w3.org/2002/07/owl#allValuesFrom": [
             {
-                "@id": "_:genid25"
+                "@id": "_:genid26"
             }
         ],
         "http://www.w3.org/2002/07/owl#onProperty": [
@@ -2223,7 +2280,7 @@
         ]
     },
     {
-        "@id": "_:genid25",
+        "@id": "_:genid26",
         "http://www.w3.org/2002/07/owl#unionOf": [
             {
                 "@list": [
@@ -2244,7 +2301,7 @@
         ]
     },
     {
-        "@id": "_:genid29",
+        "@id": "_:genid30",
         "http://www.w3.org/2002/07/owl#someValuesFrom": [
             {
                 "@id": "https://w3id.org/italia/onto/School/PuntoDiErogazioneDelServizio"
@@ -2363,10 +2420,10 @@
         ]
     },
     {
-        "@id": "_:genid30",
+        "@id": "_:genid31",
         "http://www.w3.org/2002/07/owl#allValuesFrom": [
             {
-                "@id": "_:genid31"
+                "@id": "_:genid32"
             }
         ],
         "http://www.w3.org/2002/07/owl#onProperty": [
@@ -2379,7 +2436,7 @@
         ]
     },
     {
-        "@id": "_:genid31",
+        "@id": "_:genid32",
         "http://www.w3.org/2002/07/owl#unionOf": [
             {
                 "@list": [
@@ -2759,10 +2816,10 @@
         ]
     },
     {
-        "@id": "_:genid34",
+        "@id": "_:genid35",
         "http://www.w3.org/2002/07/owl#allValuesFrom": [
             {
-                "@id": "_:genid35"
+                "@id": "_:genid36"
             }
         ],
         "http://www.w3.org/2002/07/owl#onProperty": [
@@ -2775,7 +2832,7 @@
         ]
     },
     {
-        "@id": "_:genid35",
+        "@id": "_:genid36",
         "http://www.w3.org/2002/07/owl#unionOf": [
             {
                 "@list": [
@@ -3197,7 +3254,7 @@
         ]
     },
     {
-        "@id": "_:genid38",
+        "@id": "_:genid39",
         "http://www.w3.org/2002/07/owl#someValuesFrom": [
             {
                 "@id": "https://w3id.org/italia/onto/School/SedeIstituzioneScolastica"
@@ -3213,10 +3270,10 @@
         ]
     },
     {
-        "@id": "_:genid39",
+        "@id": "_:genid40",
         "http://www.w3.org/2002/07/owl#allValuesFrom": [
             {
-                "@id": "_:genid40"
+                "@id": "_:genid41"
             }
         ],
         "http://www.w3.org/2002/07/owl#onProperty": [
@@ -3229,7 +3286,7 @@
         ]
     },
     {
-        "@id": "_:genid40",
+        "@id": "_:genid41",
         "http://www.w3.org/2002/07/owl#unionOf": [
             {
                 "@list": [
@@ -3571,7 +3628,7 @@
                 "@id": "https://w3id.org/italia/onto/School/IstituzioneScolasticaDiPrimoCiclo"
             },
             {
-                "@id": "_:genid43"
+                "@id": "_:genid44"
             }
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
@@ -3615,7 +3672,7 @@
         ]
     },
     {
-        "@id": "_:genid43",
+        "@id": "_:genid44",
         "http://www.w3.org/2002/07/owl#allValuesFrom": [
             {
                 "@id": "https://w3id.org/italia/onto/School/ScuolaSecondariaDiPrimoGrado"
@@ -3643,7 +3700,7 @@
                 "@id": "https://w3id.org/italia/onto/School/IstituzioneScolasticaDiSecondoCiclo"
             },
             {
-                "@id": "_:genid44"
+                "@id": "_:genid45"
             }
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
@@ -3687,10 +3744,10 @@
         ]
     },
     {
-        "@id": "_:genid44",
+        "@id": "_:genid45",
         "http://www.w3.org/2002/07/owl#allValuesFrom": [
             {
-                "@id": "_:genid45"
+                "@id": "_:genid46"
             }
         ],
         "http://www.w3.org/2002/07/owl#onProperty": [
@@ -3703,7 +3760,7 @@
         ]
     },
     {
-        "@id": "_:genid45",
+        "@id": "_:genid46",
         "http://www.w3.org/2002/07/owl#unionOf": [
             {
                 "@list": [
@@ -3724,7 +3781,7 @@
         ]
     },
     {
-        "@id": "_:genid49",
+        "@id": "_:genid50",
         "http://www.w3.org/2002/07/owl#allValuesFrom": [
             {
                 "@id": "https://w3id.org/italia/onto/CLV/Address"
@@ -3782,7 +3839,7 @@
         ]
     },
     {
-        "@id": "_:genid50",
+        "@id": "_:genid51",
         "http://www.w3.org/2002/07/owl#intersectionOf": [
             {
                 "@list": [
@@ -3800,12 +3857,12 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
             {
-                "@id": "_:genid53"
+                "@id": "_:genid54"
             }
         ]
     },
     {
-        "@id": "_:genid53",
+        "@id": "_:genid54",
         "http://www.w3.org/2002/07/owl#someValuesFrom": [
             {
                 "@id": "https://w3id.org/italia/onto/School/IstituzioneScolasticaDiSecondoCiclo"
@@ -3821,7 +3878,7 @@
         ]
     },
     {
-        "@id": "_:genid54",
+        "@id": "_:genid55",
         "http://www.w3.org/2002/07/owl#intersectionOf": [
             {
                 "@list": [
@@ -3839,12 +3896,12 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
             {
-                "@id": "_:genid57"
+                "@id": "_:genid58"
             }
         ]
     },
     {
-        "@id": "_:genid57",
+        "@id": "_:genid58",
         "http://www.w3.org/2002/07/owl#someValuesFrom": [
             {
                 "@id": "https://w3id.org/italia/onto/School/IstituzioneScolasticaDiPrimoCiclo"
