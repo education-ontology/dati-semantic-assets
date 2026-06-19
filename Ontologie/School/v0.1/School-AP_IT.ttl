@@ -25,7 +25,7 @@
                                        <http://purl.org/dc/terms/license> <https://w3id.org/italia/controlled-vocabulary/licences/A21_CCBY40> ;
                                        <http://purl.org/dc/terms/modified> "2025-05-19"^^xsd:date ;
                                        <http://purl.org/dc/terms/publisher> <https://w3id.org/italia/data/public-organization/PCM-1RSIZZ> ;
-                                       <http://purl.org/dc/terms/rightsHolder> <https://w3id.org/italia/data/public-organization/INDIRE> ;
+                                       <http://purl.org/dc/terms/rightsHolder> <https://w3id.org/italia/data/public-organization/MIM> ;
                                        <http://purl.org/dc/terms/subject> <http://eurovoc.europa.eu/4357> ,
                                                                           <http://eurovoc.europa.eu/668> ,
                                                                           <http://eurovoc.europa.eu/873> ;
@@ -1025,6 +1025,15 @@ _:genid1 rdf:type <http://purl.org/dc/terms/PeriodOfTime> ;
                                                          <http://purl.org/dc/terms/identifier> "ISTAT" ;
                                                          <http://xmlns.com/foaf/0.1/name> "Istituto Nazionale di Statistica - ISTAT"@it ,
                                                                                           "Italian National Institute of Statistics - ISTAT"@en .
+
+
+###  https://w3id.org/italia/data/public-organization/MIM
+<https://w3id.org/italia/data/public-organization/MIM> rdf:type owl:NamedIndividual ,
+                                                                <http://dati.gov.it/onto/dcatapit#Agent> ,
+                                                                <http://xmlns.com/foaf/0.1/Agent> ;
+                                                       <http://purl.org/dc/terms/identifier> "MIM" ;
+                                                       <http://xmlns.com/foaf/0.1/name> "Ministero dell'Istruzione e del Merito"@it ,
+                                                                                        "Ministry of Education and Merit"@en .
 
 
 ###  https://w3id.org/italia/data/public-organization/PCM-1RSIZZ

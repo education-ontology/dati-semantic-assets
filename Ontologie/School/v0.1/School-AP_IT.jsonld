@@ -90,7 +90,7 @@
         ],
         "http://purl.org/dc/terms/rightsHolder": [
             {
-                "@id": "https://w3id.org/italia/data/public-organization/INDIRE"
+                "@id": "https://w3id.org/italia/data/public-organization/MIM"
             }
         ],
         "http://purl.org/dc/terms/subject": [
@@ -330,6 +330,29 @@
             {
                 "@language": "it",
                 "@value": "Dipartimento per la Trasformazione Digitale della Presidenza del Consiglio dei Ministri"
+            }
+        ]
+    },
+    {
+        "@id": "https://w3id.org/italia/data/public-organization/MIM",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#NamedIndividual",
+            "http://dati.gov.it/onto/dcatapit#Agent",
+            "http://xmlns.com/foaf/0.1/Agent"
+        ],
+        "http://purl.org/dc/terms/identifier": [
+            {
+                "@value": "MIM"
+            }
+        ],
+        "http://xmlns.com/foaf/0.1/name": [
+            {
+                "@language": "it",
+                "@value": "Ministero dell'Istruzione e del Merito"
+            },
+            {
+                "@language": "en",
+                "@value": "Ministry of Education and Merit"
             }
         ]
     },

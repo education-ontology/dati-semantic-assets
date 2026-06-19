@@ -17,7 +17,7 @@ Le entità principali dell'ontologia sono:
 - **Istituzione Scolastica** (`school:IstituzioneScolastica`) — l'ente giuridico e amministrativo autonomo ai sensi del D.P.R. 275/1999, titolare dell'offerta formativa e dotato di proprio codice fiscale e dirigenza.
 - **Punto di Erogazione del Servizio** (`school:PuntoDiErogazioneDelServizio`) — il luogo fisico (plesso, sede distaccata, sezione) in cui si svolge concretamente l'attività didattica, identificato da un proprio codice meccanografico ministeriale.
 
-Questa distinzione riflette l'organizzazione reale del sistema scolastico italiano, in cui un'unica istituzione (es. un Istituto Comprensivo) può gestire più edifici scolastici distribuiti sul territorio.
+Questa distinzione riflette l'organizzazione reale del sistema scolastico italiano, in cui un'unica istituzione dotata di autonomia (es. un Istituto Comprensivo) può gestire più punti di erogazione del servizio collegati ad uno o più edifici distribuiti sul territorio.
 
 ---
 
@@ -31,7 +31,9 @@ Il diagramma mostra la gerarchia delle classi e le relazioni principali dell'ont
 
 ## Copertura tematica
 
-L'ontologia modella i principali cicli e tipologie di istruzione previsti dall'ordinamento italiano:
+L'ontologia modella i principali cicli e tipologie di istruzione previsti dall'ordinamento italiano. 
+Le denominazioni dei punti dell'ontologia derivano in gran parte dalle modalità delle variabili DescrizioneTipologiaGradoIstruzioneScuola e DescrizioneCaratteristicaScuola presenti nelle informazioni anagrafiche [scuole degli open data](https://dati.istruzione.it/opendata/opendata/catalogo/elements1/leaf/?area=Scuole&datasetId=DS0400SCUANAGRAFESTAT)
+
 
 **Primo ciclo**
 - Scuola dell'Infanzia
@@ -43,18 +45,18 @@ L'ontologia modella i principali cicli e tipologie di istruzione previsti dall'o
 - Licei (Classico, Scientifico, Artistico, e altri)
 - Istituti Tecnici (Commerciale, Industriale, Agrario, Nautico, Aeronautico, Per Geometri, Per il Turismo, Per Attività Sociali)
 - Istituti Professionali (Industria e Artigianato, Agricoltura e Ambiente, Servizi Alberghieri e Ristorazione, Servizi Commerciali e Turistici, Servizi Sociali, Industria e Attività Marinare, Cinematografia e Televisione)
+- Istituto di Istruzione Secondaria Superiore (IISS)
 
 **Istruzione degli adulti e contesti speciali**
 - Centri Provinciali per l'Istruzione degli Adulti (CPIA)
-- Sezioni Serali
-- Sezioni Carcerarie
+- Sezioni Serali del secondo ciclo di istruzione
+- Sezioni Carcerarie del secondo ciclo di istruzione
 - Scuola Carceraria Primaria e Secondaria di Primo Grado
 
 **Tipologie storiche** (mantenute per compatibilità con dati storici)
 - Istituto Magistrale, Scuola Magistrale, Istituto d'Arte, Centro Territoriale Permanente, Circolo Didattico
 
 **Altre tipologie**
-- Istituto di Istruzione Secondaria Superiore (IISS)
 - Convitto, Educandato
 - Scuola Paritaria
 - Scuola per Utenza con Bisogni Speciali
@@ -159,7 +161,7 @@ L'ontologia riflette l'ordinamento scolastico italiano così come definito da:
 | Creatore | [STLab — ISTC-CNR](https://stlab.istc.cnr.it) |
 | Creatore | [INDIRE](https://www.indire.it) |
 | Editore | Dipartimento per la Trasformazione Digitale — PCM |
-| Rights Holder | INDIRE |
+| Rights Holder | [Ministero dell'Istruzione e del Merito](https://www.mim.gov.it/) |
 
 ---
 
