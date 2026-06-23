@@ -146,11 +146,18 @@ School-AP_IT è parte della rete **OntoPiA** ed è allineata con:
 
 L'ontologia riflette l'ordinamento scolastico italiano così come definito da:
 
-- **D.P.R. 8 marzo 1999, n. 275** — Autonomia scolastica
-- **Legge 28 marzo 2003, n. 53** — Delega al Governo per la definizione delle norme generali sull'istruzione
-- **D.P.R. 15 marzo 2010, n. 87, 88, 89** — Riforma Gelmini (Istituti Professionali, Tecnici, Licei)
-- **D.Lgs. 13 aprile 2017, n. 61** — Revisione dei percorsi di istruzione professionale
-- **D.P.R. 29 ottobre 2012, n. 263** — Istruzione degli adulti e CPIA
+- **D.Lgs. 16 aprile 1994, n. 297** -- Testo Unico delle disposizioni legislative vigenti in materia di istruzione
+- **D.P.R. 26 maggio 1998, n. 157** -- Regolamento concernente l'aggregazione di istituti scolastici di istruzione secondaria superiore
+- **D.P.R. 18 giugno 1998, n. 233** -- Regolamento per il dimensionamento ottimale delle istituzioni scolastiche
+- **D.P.R. 8 marzo 1999, n. 275** -- Regolamento recante norme in materia di autonomia delle istituzioni scolastiche
+- **Legge 10 marzo 2000, n. 62** -- Norme per la parità scolastica e disposizioni sul diritto allo studio e all'istruzione
+- **D.P.R. 30 giugno 2000, n. 230** -- Regolamento recante norme sull'ordinamento penitenziario
+- **Legge 28 marzo 2003, n. 53** -- Delega al Governo per la definizione delle norme generali sull'istruzione
+- **D.Lgs. 19 febbraio 2004, n. 59** -- Definizione delle norme generali relative alla scuola dell'infanzia e al primo ciclo dell'istruzione
+- **D.P.R. 15 marzo 2010, nn. 87, 88, 89** -- Regolamenti di riordino degli istituti professionali (87), tecnici (88) e licei (89)
+- **Legge 15 luglio 2011, n. 111 (Art. 19)** -- Conversione del D.L. 98/2011 (Razionalizzazione della spesa relativa all'organizzazione scolastica)
+- **D.P.R. 29 ottobre 2012, n. 263** -- Regolamento per la ridefinizione dell'assetto organizzativo didattico dei Centri d'istruzione per gli adulti
+- **D.Lgs. 13 aprile 2017, n. 61** -- Revisione dei percorsi dell'istruzione professionale
 
 ---
 
@@ -160,7 +167,6 @@ L'ontologia riflette l'ordinamento scolastico italiano così come definito da:
 |-------|------|
 | Creatore | [STLab — ISTC-CNR](https://stlab.istc.cnr.it) |
 | Creatore | [INDIRE](https://www.indire.it) |
-| Editore | Dipartimento per la Trasformazione Digitale — PCM |
 | Rights Holder | [Ministero dell'Istruzione e del Merito](https://www.mim.gov.it/) |
 
 ---
